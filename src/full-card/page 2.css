@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px
+}
+
+#card {
+    width: 300px;
+    height: 525px;
+    background-color: #E6FCF5;
+}
+
+#persona-gradient {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 6px;
+}
+
+#persona-levels {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 5px;
+    padding: 5px;
+}
+
+svg {
+    border-radius: 50px;
+    background-color: #96F2D7;
+    transition: 0.3s;
+}
+
+svg:hover {
+    background-color: #099268;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+
+}
