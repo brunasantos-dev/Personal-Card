@@ -8,5 +8,68 @@
 #card {
     width: 300px;
     height: 525px;
-    background-color: #fff;
+    background-color: #ffff;
+}
+
+#persona-gradient {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 6px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+
+}
+
+h3,
+h4,
+h5 {
+    font-size: 15px;
+}
+
+#persona-levels {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 10px;
+}
+
+svg {
+    border-radius: 50px;
+    background-color: #96F2D7;
+    transition: 0.3s;
+}
+
+svg:hover {
+    background-color: #099268;
+}
+
+#persona-list {
+    padding: 10px;
+}
+
+#persona-list h3,
+h4 {
+    padding-left: 5px;
+}
+
+#persona-list ul {
+    padding: 15px;
+}
+
+#persona-list li {
+    padding-bottom: 6px;
+}
+
+footer h5 {
+    text-align: center;
+    color: #ffff;
+    font-weight: 500;
+    background-color: #20C997;
+    padding: 20px;
 }
